@@ -419,9 +419,9 @@ header{
   }
 }
 
-.fb-share-button a {
-    font-size: 50px;
-    margin-left: 25%;
+.facebook{
+  margin-left: 25%;
+}
     font-weight: bold;
     color: #E93B89;
 }
