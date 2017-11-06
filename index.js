@@ -101,7 +101,7 @@ angular.module('ngQuiz', ['ngSanitize'])
     }, {
       "question": "Nintendo Virtual Boy",
       "questionImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Virtual-Boy-Set.jpg/1200px-Virtual-Boy-Set.jpg",
-      "feedback": " Nintendo started playing with VR before Zuckerberg thought it was cool, classic Mark rippin of others peoples ideas. Poor Winklevoss twins",
+      "feedback": " Nintendo started playing with VR before Zuckerberg thought it was cool, classic Mark rippin off others peoples ideas. Poor Winklevoss twins",
       "options": [{
         "name": "Real",
         "correct": true
