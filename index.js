@@ -8,7 +8,7 @@ angular.module('ngQuiz', ['ngSanitize'])
       "title": "Real or Fake? 90s Edition",
       "intro": "How well do you know the 90s? Are you an idiot? let's find out! -->",
           },
-    "quizQuestions": [{
+   "quizQuestions": [{
       "question": "Watermelon Oreos",
       "questionImg": "https://cbi-blog.s3.amazonaws.com/blog/wp-content/uploads/2016/07/Watermelon-oreos.jpg",
       "feedback": "Flavored Oreos can be great (golden, birthday cake, reverse, etc.) but these just went too far. This weird flavor combination failed to find a following with consumers. It was only available for a limited time anyway, which is just as well.",
