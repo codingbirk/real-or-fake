@@ -5,8 +5,8 @@ angular.module('ngQuiz', ['ngSanitize'])
 
   $scope.quizData = {
     "quizMetadata": {
-      "title": "Real or Fake? 90s Edition",
-      "intro": "How well do you know the 90s? Are you an idiot? let's find out! -->",
+      "title": "Real or Fake Quiz! 90's Edition",
+      "intro": "Ever heard of Pizza TicTacs, the motorized ice cream cone or the famous Candwich? Try this quiz and learn about the crazy inventions of the 90’s! Let's find out how much you actually know!",
           },
    "quizQuestions": [{
       "question": "Watermelon Oreos",
@@ -23,7 +23,7 @@ angular.module('ngQuiz', ['ngSanitize'])
     }, {
       "question": "Apple 90s Ipad",
       "questionImg": "http://oldcomputers.net/pics/newton-pen.jpg",
-      "feedback": " Pretty much everything apple made before the 2000s was absolute shit ",
+      "feedback": " Pretty much everything apple made before the 2000s was absolute shit",
       "options": [{
         "name": "Real",
         "correct": true
@@ -34,7 +34,7 @@ angular.module('ngQuiz', ['ngSanitize'])
     }, {
       "question": "Eyetop Wearable DVD Player",
       "questionImg": "http://www.usability.wiki/images/c/c3/Eyetop_wearable_DVD_Player.jpg",
-      "feedback": "This thing was ahead of its time, road trips with the family were revolutionized by these!",
+      "feedback": "This thing was ahead of it's time, road trips with the family were revolutionized by these!",
 
       "options": [{
         "name": "Real",
@@ -46,7 +46,7 @@ angular.module('ngQuiz', ['ngSanitize'])
     }, {
       "question": "Glass bottom airplane",
       "questionImg": "http://i.huffpost.com/gen/1064984/thumbs/o-GLASS-BOTTOM-PLANE-570.jpg?6",
-      "feedback": "I am glad this isnt real, I get vertigo going up a stairs ",
+      "feedback": "I am glad this isn't real, I get vertigo going up a stairs!",
       "options": [{
         "name": "Real",
         "correct": false
@@ -79,7 +79,7 @@ angular.module('ngQuiz', ['ngSanitize'])
     }, {
       "question": "Tic Tac Pizza",
       "questionImg": "https://pbs.twimg.com/media/BGxKogcCIAAhVDt.jpg",
-      "feedback": "Yuck, just yuck - there's a reason these dont exist ",
+      "feedback": "Yuck, just yuck - there's a reason these don't exist ",
       "options": [{
         "name": "Real",
         "correct": false

@@ -4,18 +4,18 @@ body {
   padding-top: 1.5em;
   font-family: 'Montserrat', sans-serif;
   background-image: url(https://txstatephilamb.files.wordpress.com/2017/07/poptart.jpg);
-  color: white; 
-
+  color: white;
 }
 
 h1{
-  color: white;
+  color: purple;
+  font-size: 30px;
   font-weight: bold;
-  font-size: 60px;
+  font-style: italic;
 }
 
 h2{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 p{
@@ -36,8 +36,10 @@ header{
   min-height: 60vh;
   background: #E93B89;
   box-shadow: -2px 0px 21px -2px rgba(0, 0, 0, 0.4);
-  color: limegreen;
+  border-style: solid;
+  border-color: orange;
 }
+
 .text-center {
   text-align: center;
 }
@@ -51,6 +53,7 @@ header{
   user-select: none;
   outline: 0!important;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+
 }
 .quiz .btn {
   font-size: 1.6rem;

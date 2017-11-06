@@ -30,7 +30,7 @@
 
 
 <span class ="header";>
-  <img id="logo" src="logo.png" height="130vh">
+  <img id="logo" src="logo.png" height="140vh">
 
   </span>
 
@@ -48,7 +48,7 @@
         <div ng-cloak class="row">
           <div class="col-xs-6">
             <h1>{{::quizMetadata.title}}</h1>
-            <p>{{::quizMetadata.intro}}</p>
+            <h2><p>{{::quizMetadata.intro}}</p></h2>
           </div>
           <div class="col-xs-6">
             <img ng-src="{{quizMetadata.introImg}}" />
@@ -56,7 +56,7 @@
           </div>
         </div>
         <div class="row">
-          <button class="pull-right btn btn-success" ng-click="startQuiz()">Lets See How Dumb You Are!</button>
+          <button class="pull-right btn btn-success" ng-click="startQuiz()">Let's get started!</button>
         </div>
       </section>
 
