@@ -418,3 +418,10 @@ header{
     opacity: 1;
   }
 }
+
+.fb-share-button a {
+    font-size: 50px;
+    margin-left: 25%;
+    font-weight: bold;
+    color: #E93B89;
+}
