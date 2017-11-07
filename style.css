@@ -14,8 +14,6 @@ h1{
   font-style: italic;
 }
 
-h2{
-  font-size: 30px;
 }
 
 p{
@@ -42,6 +40,8 @@ header{
 
 .text-center {
   text-align: center;
+  font-size: 20px;
+  color: orange;
 }
 .quiz .question img {
   display: block;
@@ -171,13 +171,26 @@ header{
   background: #2b9eda;
 }
 .quiz .results h1 {
-  font-size: 2.8rem;
-  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
-}
-.quiz .results h2 {
   font-size: 2.4rem;
   text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
 }
+.quiz .results h2 {
+  font-size: 4.0rem;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  color:#ff0090;
+  font-weight: bold;
+  border:dotted;
+  border-color: yellow;
+  padding: 10px  0px 10px 0px;
+}
+.quiz .result p {
+  font-size: 50px;
+  font-weight: bold;
+  color:purple;
+  text-align: center;
+}
+
+
 .quiz .dim {
   opacity: 0.5;
 }
@@ -429,8 +442,25 @@ header{
 }
 
 .facebook{
-  margin: 50%;
+  margin: 5%;
 }
     font-weight: bold;
     color: #E93B89;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
